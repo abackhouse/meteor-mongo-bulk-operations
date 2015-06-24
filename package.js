@@ -1,11 +1,12 @@
 Package.describe({
-  summary: "Bulk inserts for Meteor"
+  name: 'coh:bulk-operations',
+  summary: 'Bulk operations for Meteor'
 });
 
 Package.onUse(function (api) {
   api.versionsFrom('1.0.4');
   
-  api.use(['coffeescript', 'mongo'], 'server');
+  api.use(['mongo'], 'server');
   api.add_files('bulk_insert.js', 'server');
 });
 
