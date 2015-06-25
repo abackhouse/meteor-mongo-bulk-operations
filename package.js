@@ -1,6 +1,7 @@
 Package.describe({
   name: 'coh:bulk-operations',
-  summary: 'Bulk operations for Meteor'
+  summary: 'Bulk operations for Meteor',
+  git: 'https://github.com/clappingonehand/meteor-mongo-bulk-operations.git'
 });
 
 Package.onUse(function (api) {
